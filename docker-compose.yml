@@ -9,6 +9,6 @@ services:
       - 50003:50000
     container_name: my-jenkins-3
     volumes:
-      - /Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker/jenkins_data:/var/jenkins_home
+      - D:/DevOpsPractice/Docker_Setup/jenkins_data:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
 
